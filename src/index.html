@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
 </head>
-<body>
-    <div class="h-screen flex justify-center items-center flex-col">
-        <h1 class="text-4xl font-awesome underline">Rock Paper Scissors</h1>
+<body class="bg-slate-900 text-white font-extralight">
+    <div class="h-screen flex justify-center items-center flex-col font-sans">
+        <h1 class="text-4xl font-awesome underline decoration-solid">Rock Paper Scissors</h1>
 
-        <h2 class="text-2xl">Computer: <span id="Cresult"></span></h2>
+        <h2 class="text-2xl mt-2">Computer: <span id="Cresult"></span></h2>
 
-        <h2 class="text-2xl">Player: <span id="Presult"></span></h2>
+        <h2 class="text-2xl my-2">Player: <span id="Presult"></span></h2>
 
-        <h2 class="text-2xl">result: <span id="result"></span></h2>
+        <h2 class="text-2xl mb-2">result: <span id="result"></span></h2>
 
         <div class="mt-2">
-            <button class="border rounded-full border-solid px-3 text-xl" id="choice">Rock</button>
-            <button class="border rounded-full border-solid px-3 text-xl" id="choice">Paper</button>
-            <button class="border rounded-full border-solid px-3 text-xl" id="choice">Scissors</button>
+            <button class="border rounded-full border-solid px-3 text-xl not-italic hover:italic" id="choice">Rock</button>
+            <button class="border rounded-full border-solid px-3 text-xl not-italic hover:italic mx-2" id="choice">Paper</button>
+            <button class="border rounded-full border-solid px-3 text-xl not-italic hover:italic" id="choice">Scissors</button>
         </div>
     </div>
     <script src="../scripts/main.js"></script>
