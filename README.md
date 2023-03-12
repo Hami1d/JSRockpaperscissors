@@ -1,1 +1,3 @@
 # JSRockpaperscissors
+
+HTML, TailwindCSS, Javascript
